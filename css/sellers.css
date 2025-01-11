@@ -1,0 +1,61 @@
+@font-face {
+    font-family:vazir;
+    src: url(../font/Vazirmatn-Regular.ttf);
+}
+body{
+    font-family: vazir;
+    font-size: 16px
+    
+}
+.rules-part{
+    background-color: #2293A6;
+
+}
+.sellers-form{
+    margin: 0px auto;
+
+    
+}
+#logo{
+    width: 150px;
+    height: auto;
+    margin:0px auto;
+
+}
+.sellers-form-body{
+    border: 2px solid #D5D5D5;
+}
+.form-group{
+    position: relative;
+}
+
+.sellers-form-body input{
+    background: transparent;
+    border: 1px solid #D5D5D5;
+    border-radius: 8px;
+    transition: all .8s ease;
+  }
+  
+.sellers-form-body .label{
+    color: #4c4c4c;
+    position: absolute;
+    top: 50%;
+    left: auto;
+    right: 5px;
+    transform: translateY(-50%);
+    transition: all .8s ease;
+  }
+  
+.input-field:focus ~ .label{
+    top: 0;
+    left: 0;
+    color: rgb(160, 75, 75);
+    transform: translateY(-50%);
+    font-size: .8em;
+}
+.continue-btn{
+    background-color: #FF4A4D;
+    border-radius: 8px;
+    font-weight: bold;
+
+}

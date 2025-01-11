@@ -1,0 +1,58 @@
+.address{
+    border: 2px solid #D5D5D5;
+    border-radius: 10px;
+    max-height: 500px;
+    height: 500px;
+    margin: 15px;
+}
+.price{
+    border: 2px solid #D5D5D5;
+    border-radius: 10px;
+    max-height: 500px;
+    height: 500px;
+    margin: 15px;
+}
+.address-part{
+    border: 2px solid #D5D5D5;
+    border-radius: 10px;
+    height: 35vh;
+    width: 80vh;
+    margin: 10px;
+}
+.input-address{
+    width: 70vh;
+    background-color: #D9D9D9;
+    border-radius: 5px;
+    border: none;
+    padding: 0px 10px;
+    color: black;
+    margin-top:-30px;
+}
+
+input::placeholder{
+    color: black;
+    opacity: 1;
+}
+.calender-box{
+    border: 2px solid #D5D5D5;
+    border-radius: 10px;
+    height: 10vh;
+    width: 90vh;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.calender{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 10px;
+}
+.confirm-button{
+    background: none;
+}
+.gray-part{
+    background-color: white !important;
+    margin-top: 80px;
+}
